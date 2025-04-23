@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fffffe;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+section {
+    width: 45vw;
+    border-radius: 5px;
+    background: #f8f5f2;
+    border: 1px solid #2b2c34;
+}
+
+section h2 {
+    background-color: #078080;
+    padding: 10px;
+    text-align: center;
+    color: #fffffe;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #2b2c34;
+}
+
+.input{
+    display: grid;
+    width: 100%;
+    padding: 8px;
+}
+
+.input label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inputComplete {
+    padding-left: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
+
+#bookFormSubmit {
+    background-color: #078080;
+    color: #fffffe;
+    display: grid;
+    float: right;
+    justify-content: center;
+    border: 0;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#bookFormSubmit span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#searchBook{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+#searchBook label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#searchSubmit {
+    background-color: #078080;
+    color: #fffffe;
+    border: 0;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 8px;
+    align-self: center;
+    cursor: pointer;
+}
+
+#incompleteBookList h3, p {
+    margin: 10px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+#incompleteBookList button {
+    background-color: #078080;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#completeBookList h3, p {
+    margin: 10px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+#completeBookList button {
+    background-color: #078080;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
